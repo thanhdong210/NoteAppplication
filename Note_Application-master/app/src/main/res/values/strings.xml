@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NoteApplication</string>
+
+    <string name="nav_drawer_open">Mở slide menu</string>
+    <string name="nav_drawer_close">Đóng slide menu</string>
+
+    <string-array name="NameCategory">
+        <item>Name: Working</item>
+        <item>Name: Relax</item>
+        <item>Name: Study</item>
+    </string-array>
+    <string-array name="DateCategory">
+        <item>Create Date: 2019-09-05 14:15:01</item>
+        <item>Create Date: 2019-09-05 14:15:06</item>
+        <item>Create Date: 2019-09-05 14:55:23</item>
+    </string-array>
+
+    <string-array name="NamePriority">
+        <item>Name: High</item>
+        <item>Name: Medium</item>
+        <item>Name: Slow</item>
+    </string-array>
+    <string-array name="DatePriority">
+        <item>Create Date: 2019-09-05 14:15:01</item>
+        <item>Create Date: 2019-09-05 14:15:06</item>
+        <item>Create Date: 2019-09-05 14:55:23</item>
+    </string-array>
+
+</resources>

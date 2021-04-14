@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/nav_home"/>
+
+        <item android:id="@+id/nav_category"
+            android:title="Category"
+            android:icon="@drawable/nav_home"/>
+
+        <item android:id="@+id/nav_priority"
+            android:title="Priority"
+            android:icon="@drawable/nav_home"/>
+
+        <item android:id="@+id/nav_status"
+            android:title="Status"
+            android:icon="@drawable/status"/>
+
+        <item android:id="@+id/nav_note"
+            android:title="Note"
+            android:icon="@drawable/status"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Account"/>
+
+        <menu>
+            <item android:id="@+id/nav_editprofile"
+                android:title="Edit Profile"
+                android:icon="@drawable/share"/>
+
+            <item android:id="@+id/nav_changepassword"
+                android:title="Change Pasword"
+                android:icon="@drawable/change"/>
+        </menu>
+
+    </group>
+
+</menu>
